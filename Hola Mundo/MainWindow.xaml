@@ -15,7 +15,7 @@
             <ColumnDefinition Width="14*"/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock x:Name="SaludoTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="¡Hola, Mundo!" VerticalAlignment="Top" Margin="204,28,0,0" Height="133" Width="352" FontSize="48" Foreground="#FFBF0101" Grid.Column="2"/>
+        <TextBlock x:Name="SaludoTextBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="¡Hola Mundo!" VerticalAlignment="Top" Margin="204,28,0,0" Height="133" Width="352" FontSize="48" Foreground="#FFBF0101" Grid.Column="2"/>
         <TextBlock x:Name="NombreTextBlock" HorizontalAlignment="Left" Margin="154,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Width="80" Height="26" Grid.Column="2"><Run Text="Nombre"/><Run Text=":"/><LineBreak/><Run/></TextBlock>
         <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Height="21" Margin="154,198,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="304" Grid.Column="2"/>
         <Button x:Name="AceptarButton" Content="Saludar" HorizontalAlignment="Left" Margin="464,198,0,0" VerticalAlignment="Top" Width="92" Height="21" Click="AceptarButton_Click" Grid.Column="2"/>
